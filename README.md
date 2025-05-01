@@ -82,13 +82,20 @@ These results indicate strong predictive performance, with `surface` being the p
 ## Visualizations
 The project includes:
 - **Scatter Plot**: Surface area vs. price, showing a strong positive correlation.
-![Prices based on different quantity variabes](images/Prices%20based%20on%20different%20quantity%20variabes.png)
+
+![Prices based on different quantity variabes](assets/Prices%20based%20on%20different%20quantity%20variabes.png)
+
 - **Box Plot**: Price distribution by location, highlighting higher prices in Paris.
-![Price distribution by location](images/Price%20distribution%20by%20location.png)
+
+![Price distribution by location](assets/Price%20distribution%20by%20location.png)
+
 - **Feature Importance Chart**: From Random Forest, emphasizing key predictors.
-![Feature Importance Bar Plot](images/Feature%20Importance%20Bar%20Plot.png)
+
+![Feature Importance Bar Plot](assets/Feature%20Importance%20Bar%20Plot.png)
+
 - **Error Histogram**: Distribution of prediction errors for model evaluation.
-![Histogram of Actual vs. Predicted Prices](images/Histogram%20of%20Actual%20vs.%20Predicted%20Prices.png)
+
+![Histogram of Actual vs. Predicted Prices](assets/Histogram%20of%20Actual%20vs.%20Predicted%20Prices.png)
 
 ## Challenges and Solutions
 - **High-Cardinality Variables**: Simplified `ville` by grouping into "Paris" and "Banlieue" to reduce dimensionality.
