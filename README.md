@@ -55,11 +55,11 @@ These models showcase machine learning expertise in building and evaluating pred
 Key findings:
 - **OLS Regression**: Achieved an R-squared of 0.820, with `surface` and location as top predictors.
 - **Random Forest Regression**: Confirmed `surface` and `typedebien` as the most important features.
-- ![Feature Importance](images/Feature Importance Bar Plot.png)
+![Feature Importance Bar Plot](images/Feature%20Importance%20Bar%20Plot.png)
 - **Linear Regression**: Obtained an R-squared of 0.822 on the test set, with an RMSE of 164,653 and a correlation of 0.899 between predicted and actual prices.
-- ![Feature Importance](images/Histogram of Actual vs. Predicted Prices.png)
 
 These results indicate strong predictive performance, with `surface` being the primary driver of property prices.
+![Histogram of Actual vs. Predicted Prices](images/Histogram%20of%20Actual%20vs.%20Predicted%20Prices.png)
 
 ## Technologies Used
 - Python 3.x
