@@ -14,7 +14,7 @@
 11. [Future Work](#future-work)
 
 ## Introduction
-This project analyzes a real estate dataset from [seloger.com](https://www.seloger.com/) to predict property prices using machine learning techniques. The goal is to identify key factors influencing property prices, such as surface area and location, and build accurate predictive models. The project showcases skills in data preprocessing, feature engineering, and model development, making it relevant for both machine learning and data engineering profiles.
+This project analyzes a real estate dataset from [seloger.com](https://www.seloger.com/) to predict property prices using machine learning techniques. The goal is to identify key factors influencing property prices, such as surface area and location, and build accurate predictive models.
 
 ## Dataset
 The dataset contains 8,899 property listings with 24 features, including:
