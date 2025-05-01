@@ -25,8 +25,6 @@ The dataset contains 8,899 property listings with 24 features, including:
 - `ville`: City or location
 - `typedebien`: Property type
 
-Due to privacy concerns, the dataset is not included in this repository. It can be replicated with similar real estate datasets containing features like price, size, and location.
-
 ## Exploratory Data Analysis
 Exploratory data analysis (EDA) revealed:
 - A strong positive correlation between `surface` and `prix`.
@@ -41,7 +39,7 @@ Key preprocessing steps included:
 - **Outlier Removal**: Eliminated entries with unrealistic values, such as zero surface area or 22 bedrooms.
 - **Feature Engineering**: Grouped high-cardinality variables (e.g., `ville` into "Paris" and "Banlieue") and created a `freq_annonce` feature to capture advertisement frequency.
 
-These steps ensured the data was clean and suitable for modeling, demonstrating robust data engineering skills.
+These steps ensured the data was clean and suitable for modeling.
 
 ## Modeling
 The project implemented:
@@ -49,17 +47,13 @@ The project implemented:
 - **Random Forest Regression**: Highlighted `surface` and `typedebien` as key features.
 - **Linear Regression**: Trained on an 80/20 train-test split to predict prices.
 
-These models showcase machine learning expertise in building and evaluating predictive systems.
-
 ## Results
 Key findings:
 - **OLS Regression**: Achieved an R-squared of 0.820, with `surface` and location as top predictors.
 - **Random Forest Regression**: Confirmed `surface` and `typedebien` as the most important features.
-![Feature Importance Bar Plot](images/Feature%20Importance%20Bar%20Plot.png)
 - **Linear Regression**: Obtained an R-squared of 0.822 on the test set, with an RMSE of 164,653 and a correlation of 0.899 between predicted and actual prices.
 
 These results indicate strong predictive performance, with `surface` being the primary driver of property prices.
-![Histogram of Actual vs. Predicted Prices](images/Histogram%20of%20Actual%20vs.%20Predicted%20Prices.png)
 
 ## Technologies Used
 - Python 3.x
@@ -74,7 +68,7 @@ These results indicate strong predictive performance, with `surface` being the p
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Real-Estate-Price-Prediction.git
+   git clone https://github.com/yassirbelarche/Real-Estate-Price-Prediction.git
    ```
 2. Install dependencies:
    ```bash
@@ -82,17 +76,19 @@ These results indicate strong predictive performance, with `surface` being the p
    ```
 3. Run the notebook:
    ```bash
-   jupyter notebook TP_seloger.ipynb
+   jupyter notebook main.ipynb
    ```
-
-Ensure you have a compatible dataset with similar features to replicate the analysis.
 
 ## Visualizations
 The project includes:
 - **Scatter Plot**: Surface area vs. price, showing a strong positive correlation.
+![Prices based on different quantity variabes](images/Prices%20based%20on%20different%20quantity%20variabes.png)
 - **Box Plot**: Price distribution by location, highlighting higher prices in Paris.
+![Price distribution by location](images/Price%20distribution%20by%20location.png)
 - **Feature Importance Chart**: From Random Forest, emphasizing key predictors.
+![Feature Importance Bar Plot](images/Feature%20Importance%20Bar%20Plot.png)
 - **Error Histogram**: Distribution of prediction errors for model evaluation.
+![Histogram of Actual vs. Predicted Prices](images/Histogram%20of%20Actual%20vs.%20Predicted%20Prices.png)
 
 *Note*: Screenshots of these plots can be added to the repository’s `images/` folder and linked here.
 
