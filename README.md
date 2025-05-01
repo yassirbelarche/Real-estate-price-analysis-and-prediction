@@ -90,14 +90,10 @@ The project includes:
 - **Error Histogram**: Distribution of prediction errors for model evaluation.
 ![Histogram of Actual vs. Predicted Prices](images/Histogram%20of%20Actual%20vs.%20Predicted%20Prices.png)
 
-*Note*: Screenshots of these plots can be added to the repository’s `images/` folder and linked here.
-
 ## Challenges and Solutions
 - **High-Cardinality Variables**: Simplified `ville` by grouping into "Paris" and "Banlieue" to reduce dimensionality.
 - **Outliers**: Removed entries with erroneous data to improve model accuracy.
 - **Encoding Issues**: Corrected special characters in text data for accurate categorization.
-
-These solutions demonstrate problem-solving skills in data engineering.
 
 ## Future Work
 - Incorporate additional features, such as proximity to amenities or market trends.
